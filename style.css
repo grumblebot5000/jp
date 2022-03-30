@@ -1,0 +1,43 @@
+body {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.flex-container {
+	/*	align-items: stretch;
+	align-content: center;
+*/
+	display: flex;
+	flex-direction: row;
+}
+
+.flex-left {
+	border: 2px solid blue;
+	margin: 5px;
+	padding-top: 5%;
+	order: 1;
+	width: 25%;
+}
+.flex-right {
+	border: 2px solid cyan;
+	height: 100vh;
+	margin: 5px;
+	order: 2;
+	padding: 5px;
+	width: 75%;
+}
+
+.author-name {
+	font-family: "Courier New", Courier, monospace;
+}
+
+.main-text {
+	color: burlywood;
+}
+
+aside {
+	background: lightgray;
+	text-align: center;
+}
+nav > p {
+	color: blueviolet;
+}
