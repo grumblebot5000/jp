@@ -1,5 +1,5 @@
 body {
-	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	font-family: sans-serif;
 }
 
 .flex-container {
@@ -34,16 +34,16 @@ body {
 
 .author-name,
 nav {
-	font-family: "Courier New", Courier, monospace;
+	font-family: sans-serif;
 }
 
 img {
-	border-radius: 50%;
+	/*border-radius: 50%;*/
 	max-width: 95%;
 }
 
 aside {
-	background-color: #cccad6;
+	/*background-color: #cccad6;*/
 	text-align: center;
 }
 /*nav > p {
@@ -51,21 +51,21 @@ aside {
 }
 */
 main {
-	background-color: #f9f9f9;
+	/*background-color: #f9f9f9;*/
 }
 
 a {
-	color: #5d5878;
+	color: black;
 	font-size: 24px;
 }
 a:link {
 	text-decoration: none;
 }
 a:hover {
-	color: #3a3230;
+	color: #282828;
 	font-size: 25px;
 }
 
 a:visited {
-	color: #5d5878;
+	color: black;
 }
