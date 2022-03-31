@@ -46,13 +46,6 @@ aside {
 	/*background-color: #cccad6;*/
 	text-align: center;
 }
-/*nav > p {
-	color: #5d5878;
-}
-*/
-main {
-	/*background-color: #f9f9f9;*/
-}
 
 a {
 	color: black;
@@ -62,10 +55,5 @@ a:link {
 	text-decoration: none;
 }
 a:hover {
-	color: #282828;
-	font-size: 25px;
-}
-
-a:visited {
-	color: black;
+	color: #4f4f4f;
 }
