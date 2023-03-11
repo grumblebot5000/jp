@@ -5,17 +5,12 @@ body {
 }
 
 .flex-container {
-  /*	align-items: stretch;
-	align-content: center;
-*/
-  /*	border: 2px darkcyan;*/
   display: flex;
   flex-direction: row;
   height: 100%;
 }
 
 .flex-left {
-  /*	border: 2px solid blue;*/
   height: 100%;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -43,9 +38,17 @@ body {
 }
 
 .writing-samples li a {
+  line-height: 25px;
   list-style: outside;
   list-style-type: none;
   padding-left: 0;
+}
+
+.tab {
+  /* display: inline-block; */
+  /* text-align: right; */
+  /* justify-content: end; */
+  /* margin-left: 40px; */
 }
 
 ul {
@@ -53,14 +56,8 @@ ul {
   padding-left: 0;
 }
 
-/* li {
-  padding-left: 0;
-  list-style: none;
-} */
-
-.tab {
-  display: inline-block;
-  margin-left: 40px;
+li span {
+  text-align: right;
 }
 
 /*.author-name {
