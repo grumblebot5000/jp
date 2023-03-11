@@ -1,55 +1,67 @@
 body {
-	font-family: sans-serif;
-	font-size: larger;
-	/*font-size: x-large;*/
+  font-family: sans-serif;
+  font-size: larger;
+  /*font-size: x-large;*/
 }
 
 .flex-container {
-	/*	align-items: stretch;
+  /*	align-items: stretch;
 	align-content: center;
 */
-/*	border: 2px darkcyan;*/
-	display: flex;
-	flex-direction: row;
-	height: 100%;
+  /*	border: 2px darkcyan;*/
+  display: flex;
+  flex-direction: row;
+  height: 100%;
 }
 
 .flex-left {
-/*	border: 2px solid blue;*/
-	height: 100%;
-	margin-top: 5px;
-	margin-bottom: 5px;
-	margin-right: 2px;
-	padding-top: 5%;
-	order: 1;
-	width: 25%;
+  /*	border: 2px solid blue;*/
+  height: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 2px;
+  padding-top: 5%;
+  order: 1;
+  width: 25%;
 }
 .flex-right {
-/*	border: 2px solid tomato;*/
-	height: 100%;
-	margin-left: 2px;
-	margin-top: 5px;
-	margin-bottom: 5px;
-	order: 2;
-	padding-left: 5%;
-	padding-right: 10%;
-	padding-top: 3%;
-	width: 75%;
+  /*	border: 2px solid tomato;*/
+  height: 100%;
+  margin-left: 2px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  order: 2;
+  padding-left: 5%;
+  padding-right: 10%;
+  padding-top: 3%;
+  width: 75%;
 }
 
-.main-text{
-	font-size: 18px;
-	line-height: 30px;
+.main-text {
+  font-size: 18px;
+  line-height: 30px;
 }
 
-.writing-samples{
-	list-style-type: none;
+.writing-samples li a {
+  list-style: outside;
+  list-style-type: none;
+  padding-left: 0;
 }
 
-/*.tab { 
-   display:inline-block; 
-   margin-left: 40px; 
-}*/
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* li {
+  padding-left: 0;
+  list-style: none;
+} */
+
+.tab {
+  display: inline-block;
+  margin-left: 40px;
+}
 
 /*.author-name {
 	border: 2px darkcyan;
@@ -60,25 +72,24 @@ h1 {
 }
 
 img {
-	/*border-radius: 50%;*/
-	max-width: 100%;
+  /*border-radius: 50%;*/
+  max-width: 100%;
 }
 
 aside {
-	/*background-color: #cccad6;*/
-	text-align: center;
+  /*background-color: #cccad6;*/
+  text-align: center;
 }
 
 a {
-	color: darkmagenta;
-	display: inline-flex;
-	font-size: 18px;
+  color: darkmagenta;
+  display: inline-flex;
+  font-size: 18px;
 }
 a:link {
-	display: inline-flex;
-	text-decoration: none;
-
+  display: inline-flex;
+  text-decoration: none;
 }
 a:hover {
-	color: #4f4f4f;
+  color: #4f4f4f;
 }
