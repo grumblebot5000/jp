@@ -1,7 +1,6 @@
 body {
   font-family: sans-serif;
   font-size: larger;
-  /*font-size: x-large;*/
 }
 
 .flex-container {
@@ -42,13 +41,14 @@ body {
   list-style: outside;
   list-style-type: none;
   padding-left: 0;
+  overflow-x: hidden;
 }
 
 .tab {
-  /* display: inline-block; */
-  /* text-align: right; */
-  /* justify-content: end; */
-  /* margin-left: 40px; */
+  display: inline-block;
+  text-align: right;
+  justify-content: end;
+  margin-left: 40px;
 }
 
 ul {
@@ -60,21 +60,14 @@ li span {
   text-align: right;
 }
 
-/*.author-name {
-	border: 2px darkcyan;
-	font-family: sans-serif;
-}*/
-
 h1 {
 }
 
 img {
-  /*border-radius: 50%;*/
   max-width: 100%;
 }
 
 aside {
-  /*background-color: #cccad6;*/
   text-align: center;
 }
 
